@@ -18,7 +18,7 @@ public class StateCensusAnalyserTest {
 	}
 
 	@Test
-	public void givenIndiaCensusData_WithWrongFile_ShouldThrowException() {
+	public void givenIndiaCensusDataWithWrongFileShouldThrowException() {
 		try {
 			StateCensusAnalyser censusAnalyser = new StateCensusAnalyser();
 			ExpectedException exceptionRule = ExpectedException.none();
