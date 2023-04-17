@@ -24,4 +24,5 @@ public class CSVStateCensus {
 				", DensityPerSqKm='" + densityPerSqKm + '\'' +
 				'}';
 	}
+
 }
